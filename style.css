@@ -75,11 +75,12 @@ color: white;
     font-weight: bold;
     font-size: 50px;
     font-family: IBM Plex Sans, sans-serif;
+    transform: translate (0. 5px);
 }
 
 #month {
-
-    text-indent: 10em;
+    transform: translate(0, -5px);
+   
 
 }
 
@@ -147,4 +148,33 @@ top: 61.99px;
     height: 79px;
     left: 165px;
     top: 1662px;
+}
+
+.button1 {
+    background-color: #191826;
+    color:#fcfaf9;
+    padding-left: 10px;
+    padding-right: auto;
+    border-radius: 12px;
+    width: 350px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.button2 {
+
+    background-color: #fcfaf9;
+    color: #191826;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: auto;
+    border-radius: 12px;
+    width: 350px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
