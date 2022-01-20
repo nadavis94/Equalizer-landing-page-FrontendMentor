@@ -62,7 +62,7 @@ padding-right: 59px;
 padding-top: 58px;
 padding-bottom: 515px;
 position: absolute;
-font-family: IBM Plex Sans;
+font-family: IBM Plex Sans, sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
@@ -75,4 +75,76 @@ color: white;
     font-weight: bold;
     font-size: 50px;
     font-family: IBM Plex Sans, sans-serif;
+}
+
+#month {
+
+    text-indent: 10em;
+
+}
+
+.top {
+    position: absolute;
+    width: 312px;
+    height: 468px;
+    left: 1128px;
+    top: -40px;
+
+}
+
+.rainbow {
+    position: absolute;
+    width: 1613px;
+    height: 1758px;
+    left: -250px;
+    top: -270px;
+}
+
+.head {
+    position: absolute;
+    left: 165px;
+    top: 130px;
+    right: 260px;
+    width: 1015px;
+    height: 176px;
+ 
+    font-family: IBM Plex Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 88px;
+    line- height: 100%;
+    letter-spacing: -1px;
+    color: #191826;
+}
+
+.equalizer {
+    position: absolute;
+    width: 825px;
+    height: 102px;
+    left: 164.5px;
+    top: 437px;
+
+    font-family: IBM Plex Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.logo {
+
+
+position: absolute;
+width: 146.09px;
+height: 32px;
+left: 166.15px;
+top: 61.99px;
+}
+
+.footer {
+    position: absolute;
+    width: 1110px;
+    height: 79px;
+    left: 165px;
+    top: 1662px;
 }
