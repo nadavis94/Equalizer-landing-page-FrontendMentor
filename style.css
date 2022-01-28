@@ -76,6 +76,7 @@ color: white;
     font-size: 50px;
     font-family: IBM Plex Sans, sans-serif;
     transform: translate (0. 5px);
+    
 }
 
 #month {
@@ -113,7 +114,7 @@ color: white;
     font-style: normal;
     font-weight: bold;
     font-size: 88px;
-    line- height: 100%;
+    line-height: 100%;
     letter-spacing: -1px;
     color: #191826;
 }
@@ -150,8 +151,22 @@ top: 61.99px;
     top: 1662px;
 }
 
+.trademark {
+    font-family: IBM Plex Sans, sans-serif;
+    position: absolute;
+    width: 1110px;
+    height: 79px;
+    left: 450px;
+    top: 1662px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+
 .button1 {
     background-color: #191826;
+    border-color: #191826;
     color:#fcfaf9;
     padding-left: 10px;
     padding-right: auto;
@@ -164,9 +179,15 @@ top: 61.99px;
 
 }
 
+.button1: hover {
+    background-color: #66E2DC!important;
+    color:#FCFAF9
+}
+
 .button2 {
 
     background-color: #fcfaf9;
+    border-color: #FCFAF9;
     color: #191826;
     margin-top: 30px;
     padding-left: 10px;
@@ -177,4 +198,9 @@ top: 61.99px;
     margin-top: 30px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.button2: hover {
+    background-color: #FFB964!important;
+    color: #fcfaf9
 }
